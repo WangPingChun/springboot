@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: dev
+  ### dataSource ###
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://101.132.47.22:3306/test?useSSL=false
+    username: root
+    password: WANGpc@0303
+  ### jpa ###
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
